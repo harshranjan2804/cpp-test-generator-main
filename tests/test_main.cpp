@@ -1,4 +1,5 @@
 #include "functions.h"
+#include <gtest/gtest.h>
 
 TEST(ReverseNumberToWordsTest, HandlesZero) {
     EXPECT_EQ(reverseNumberToWords(0), "ZERO");
